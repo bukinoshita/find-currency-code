@@ -1835,10 +1835,6 @@ is-ci@^1.0.7:
   dependencies:
     ci-info "^1.0.0"
 
-is-currency-code@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/is-currency-code/-/is-currency-code-1.1.0.tgz#bc9c0ff5b720b3e0530a5567cdbb26b0128f7217"
-
 is-dotfile@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/is-dotfile/-/is-dotfile-1.0.3.tgz#a6a2f32ffd2dfb04f5ca25ecd0f6b83cf798a1e1"

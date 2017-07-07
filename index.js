@@ -1,6 +1,5 @@
 'use strict'
 
-const isCurrencyCode = require('is-currency-code')
 const currenci = require('currenci')
 
 module.exports = str => {
@@ -16,5 +15,5 @@ module.exports = str => {
 
   const currency = str.substring(index, index + 3).toUpperCase()
 
-  return isCurrencyCode(currency) ? currency : false
+  return currency ? currency : false
 }

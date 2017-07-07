@@ -20,8 +20,7 @@
     "transform-currency"
   ],
   "dependencies": {
-    "currenci": "^0.0.1",
-    "is-currency-code": "^1.1.0"
+    "currenci": "^0.0.1"
   },
   "devDependencies": {
     "ava": "^0.20.0",

@@ -1,10 +1,12 @@
 'use strict'
 
 import test from 'ava'
+import currenci from 'currenci'
 import m from './'
 
 test(t => {
-  t.is(m('I have USD300'), 'USD')
-  t.is(m('I have 300 EUR'), 'EUR')
+  currenci.list.map(currency =>
+    t.is(m(`I have ${currency.code}300`), currency.code)
+  )
   t.false(m('I have'))
 })
