@@ -1,6 +1,6 @@
 {
   "name": "find-currency-code",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Find currency code from given string",
   "main": "index.js",
   "repository": "bukinoshita/find-currency-code",
