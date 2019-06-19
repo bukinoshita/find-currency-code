@@ -1,14 +1,12 @@
-# find-currency-code [![Build Status](https://travis-ci.org/bukinoshita/find-currency-code.svg?branch=master)](https://travis-ci.org/bukinoshita/find-currency-code)
+# find-currency-code [![Build Status](https://travis-ci.org/bukinoshita/find-currency-code.svg?branch=master)](https://travis-ci.org/bukinoshita/find-currency-code) [![codecov](https://codecov.io/gh/bukinoshita/find-currency-code/branch/master/graph/badge.svg)](https://codecov.io/gh/bukinoshita/find-currency-code)
 
 > Find currency code from given string
-
 
 ## Install
 
 ```
-$ npm install --save find-currency-code
+$ yarn add find-currency-code
 ```
-
 
 ## Usage
 
@@ -19,9 +17,8 @@ findCurrencyCode('I have USD300')
 // => USD
 
 findCurrencyCode('I do not have money')
-// => false
+// => undefined
 ```
-
 
 ## API
 
@@ -34,13 +31,11 @@ Returns a `string`
 Type: `string`<br/>
 Required
 
-
 ## Related
 
 - [transform-currency](https://github.com/bukinoshita/transform-currency) — Transform currency code to symbol
 - [has-currency-code](https://github.com/bukinoshita/has-currency-code) — Check if given string has currency code
 - [currenci](https://github.com/bukinoshita/currenci) — List of currencies and get random currency
-
 
 ## License
 

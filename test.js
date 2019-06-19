@@ -1,12 +1,11 @@
-'use strict'
-
+// Packages
 import test from 'ava'
 import currenci from 'currenci'
-import m from './'
 
-test(t => {
-  currenci.list.map(currency =>
-    t.is(m(`I have ${currency.code}300`), currency.code)
-  )
-  t.false(m('I have'))
-})
+// Root
+import m from '.'
+
+const fn = code => m(`I have ${code}300`)
+
+test('find currency code', t => currenci.list.map(({ code }) => t.is(fn(code), code)))
+test('fail to find currency code', t => t.falsy(m('I have')))
